@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><input type="submit" name="" id="" value="1A"></td>
+            <td><input type="submit" name="" id="" value="1B"></td>
+            <td><input type="submit" name="" id="" value="1C"></td>
+            <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            <td><input type="submit" name="" id="" value="X"></td>
+            <td><input type="submit" name="" id="" value="1E"></td>
+            <td><input type="submit" name="" id="" value="1F"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="" id="" value="2A"></td>
+            <td><input type="submit" name="" id="" value="2B"></td>
+            <td><input type="submit" name="" id="" value="2C"></td>
+            <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            <td><input type="submit" name="" id="" value="2D"></td>
+            <td><input type="submit" name="" id="" value="2E"></td>
+            <td><input type="submit" name="" id="" value="2F"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="" id="" value="3A"></td>
+            <td><input type="submit" name="" id="" value="3B"></td>
+            <td><input type="submit" name="" id="" value="3C"></td>
+            <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            <td><input type="submit" name="" id="" value="3D"></td>
+            <td><input type="submit" name="" id="" value="3E"></td>
+            <td><input type="submit" name="" id="" value="3F"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="" id="" value="4A"></td>
+            <td><input type="submit" name="" id="" value="4B"></td>
+            <td><input type="submit" name="" id="" value="4C"></td>
+            <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            <td><input type="submit" name="" id="" value="4D"></td>
+            <td><input type="submit" name="" id="" value="4E"></td>
+            <td><input type="submit" name="" id="" value="4F"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="" id="" value="5A"></td>
+            <td><input type="submit" name="" id="" value="5B"></td>
+            <td><input type="submit" name="" id="" value="5C"></td>
+            <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            <td><input type="submit" name="" id="" value="5D"></td>
+            <td><input type="submit" name="" id="" value="5E"></td>
+            <td><input type="submit" name="" id="" value="5F"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="" id="" value="6A"></td>
+            <td><input type="submit" name="" id="" value="6B"></td>
+            <td><input type="submit" name="" id="" value="6C"></td>
+            <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            <td><input type="submit" name="" id="" value="6D"></td>
+            <td><input type="submit" name="" id="" value="6E"></td>
+            <td><input type="submit" name="" id="" value="6F"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="" id="" value="7A"></td>
+            <td><input type="submit" name="" id="" value="7B"></td>
+            <td><input type="submit" name="" id="" value="7C"></td>
+            <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            <td><input type="submit" name="" id="" value="7D"></td>
+            <td><input type="submit" name="" id="" value="7E"></td>
+            <td><input type="submit" name="" id="" value="7F"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="" id="" value="8A"></td>
+            <td><input type="submit" name="" id="" value="8B"></td>
+            <td><input type="submit" name="" id="" value="8C"></td>
+            <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            <td><input type="submit" name="" id="" value="8D"></td>
+            <td><input type="submit" name="" id="" value="8E"></td>
+            <td><input type="submit" name="" id="" value="8F"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="" id="" value="9A"></td>
+            <td><input type="submit" name="" id="" value="9B"></td>
+            <td><input type="submit" name="" id="" value="9C"></td>
+            <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            <td><input type="submit" name="" id="" value="9D"></td>
+            <td><input type="submit" name="" id="" value="9E"></td>
+            <td><input type="submit" name="" id="" value="9F"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="" id="" value="10A"></td>
+            <td><input type="submit" name="" id="" value="10B"></td>
+            <td><input type="submit" name="" id="" value="10C"></td>
+            <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+            <td><input type="submit" name="" id="" value="10D"></td>
+            <td><input type="submit" name="" id="" value="10E"></td>
+            <td><input type="submit" name="" id="" value="10F"></td>
+        </tr>
+    </table>
+</body>
+</html>
