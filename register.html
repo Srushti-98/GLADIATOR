@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Employee Registration</title>
+		<!-- <link href="css/homeStyles.css" rel="stylesheet" /> -->
+		<link href="css/EmpStyles.css" rel="stylesheet" />
+		<script src="jquery-3.4.1.js"></script>
+		<script>
+				$(document).ready(function(){
+					$('#accept').click(function(){
+			
+						if($('#submitbtn').is(':disabled')){
+						$('#submitbtn').removeAttr('disabled');
+					}else {
+						$('#submitbtn').attr('disabled','disabled'); 
+					}
+					});
+				});
+				</script>
+	</head>
+	
+<body>
+	
+	<form method="post" validate autocomplete="off" id="frm">
+	<table align="center">
+		<tr>
+			<th>UserName : </th>
+			<td>
+			<input type="text" id="txtName" name="txtName" maxlength="10" size="50" 
+			placeholder="User Name"/>
+			</td>
+			<td id="uerror">
+			</td>
+		</tr>
+		
+		<tr>
+				<th>Password : </th>
+				<td>
+				<input type="text" id="pdName" name="pdName" maxlength="10" size="50" 
+				placeholder="Password"/>
+				</td>
+				<td id="perror"></td>
+			</tr>
+		<tr>
+			<th>Age : </th>
+			<td>
+			<input type="number" id="txtAge" name="txtAge"
+			 min="18" max="40" step="2" placeholder="Age" />
+			</td>
+		</tr>
+		<tr>
+			<th>Address : </th>
+			<td>
+			<textarea id="txtAddr" name="txtAddr" rows="5"
+			cols="60" maxlength="500" size="50"
+			placeholder="Type Address"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<th>Mobile Number : </th>
+			<td>
+			<input type="text" id="txtMN" name="txtMN"
+			maxlength="10" size="20" pattern="[7-9][0-9]{9}" placeholder="Mobile Number" />
+			</td>
+		</tr>
+		<tr>
+			<th>Email Address : </th>
+			<td>
+			<input type="email" id="txtEmail" name="txtEmail"
+			maxlength="40" size="40" placeholder="Email Address" />
+			</td>
+		</tr>
+		
+		<tr>
+			<th>Gender : </th>
+			<td>
+			<input type="radio" id="rbtnMale" name="rbtngender"
+			checked value="M" />Male
+			<input type="radio" id="rbtnFemale" name="rbtngender"
+			value="F" />Female
+			</td>
+		</tr>
+		<tr>
+				<th>Hobbies : </th>
+				<td>
+				<input type="text" id="txtName" name="txtName"  
+				placeholder="Enter Your Hobbies " />
+				</td>
+			</tr>
+		<tr>
+			<th>Technologies Known : </th>
+			<td>
+			<input type="checkbox" id="chkC" name="chkC"
+			checked value="C" />C
+			<input type="checkbox" id="chkCPP" name="chkCPP"
+			value="C++" />C++
+			<input type="checkbox" id="chkJava" name="chkJava"
+			value="Java" />Java
+			<input type="checkbox" id="chkCS" name="chkCS"
+			value="CS" />C#
+			</td>
+		</tr>
+		<tr>
+			<th>Select City : </th>
+			<td>
+			<select style="width:200px" id="ddlCity" name="ddlCity"
+			multiple size="6">
+			<option value="Select">--Select--</option>
+			<option selected value="Mumbai">Mumbai</option>
+			<option value="Pune">Pune</option>
+			<option value="Chennai">Chennai</option>
+			<option value="Hyderabad">Hyderabad</option>
+			<option value="Bangalore">Bangalore</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<th>Select Or Type State : </th>
+			<td>
+			<input type="text" id="txtState" name="txtState"
+			list="stateList" maxlength="30"
+			placeholder="Select Or Type State" />
+			<datalist id="stateList">
+			<option value="Maharashtra">MH</option>
+			<option value="TamilNadu">TN</option>
+			<option value="Telangana">TG</option>
+			<option value="Karnatka">KN</option>
+			</datalist>
+			</td>
+		</tr>
+		
+		
+		<tr>
+				<th>Work Experience: </th>
+				<td>
+				<input type="number" id="txtAge" name="txtAge"
+				  step="1" placeholder="Age" />
+				</td>
+			</tr>
+			<tr>
+					<th>Upload Documents : </th>
+					<td>
+					<input type="file" id="fileImg" name="fileImg" />
+					</td>
+				</tr>
+		<tr>
+			<td align="right">
+					<input id="accept" name="accept" type="checkbox" value="y"/>I accept <br>
+					<input id="submitbtn" disabled="disable" name="Submit" type="submit" value="Submit" />
+					<input type="reset" value="Cancel" />
+			</td>
+		
+		</tr>
+		
+	</table>
+	</form>
+</body>
+</html>
